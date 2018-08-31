@@ -11,7 +11,7 @@
   
   parts:
     checkerboard:
-      plugin: make
+      plugin: autotools
       source-type: zip
       source: https://github.com/h1fujiwara/checkerboard/archive/master.zip
       build-packages:
