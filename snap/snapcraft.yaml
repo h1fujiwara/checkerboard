@@ -4,7 +4,7 @@
   summary: checkerboard
   description: |
     Checkerboard is C program to generate checker image file with pmg format.
-    to run as example, $ ./checkerboard checker_vga.pgm
+    Example to run, $ ./checkerboard checker.pgm
 
   grade: devel
   confinement: devmode
