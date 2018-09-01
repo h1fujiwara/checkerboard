@@ -5,8 +5,8 @@ description: |
  Checkerboard is C program to generate checker image file with pmg format.
  to run as example, $ ./checkerboard checker_vga.pgm
   
-grade: devel
-confinement: devmode
+grade: stable
+confinement: strict
 
 apps:
   checkerboard:
@@ -15,7 +15,7 @@ apps:
 parts:
   checkerboard:
     plugin: autotools
-    source: .
+    source: https://github.com/h1fujiwara/checkerboard.git
     build-packages:
       - build-essential
 
