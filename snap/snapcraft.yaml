@@ -12,8 +12,8 @@
   parts:
     checkerboard:
       plugin: autotools
-      source-type: zip
-      source: https://github.com/h1fujiwara/checkerboard/archive/master.zip
+      source-type: git
+      source: https://github.com/h1fujiwara/checkerboard.git
       build-packages:
       - build-essential      
   
